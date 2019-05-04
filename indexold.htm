@@ -1,0 +1,545 @@
+<html>
+
+<head>
+<meta http-equiv="description" content="Aunela-Turnauksen kotisivut vuosilta 2000 - 2023. Sis�lt�� otteluohjelmat tulokset pelatuilta vuosilta ja
+turnausinfon pelattavalta vuodelta.">
+<meta http-equiv="keywords" content="turnaus nappulat aunela AUNELA TURNAUS nappula jalkapallo SPL TuNL AuNL vuositurnaus turku tapahtumat soccer futis">
+<meta http-equiv="Content-Language" content="fi">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 12.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Page-Enter" content="revealTrans(Duration=3.0,Transition=12)">
+<title>AUNELA-TURNAUS</title>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!-- Begin
+// Created by AILa
+function getTime() {
+c1 = new Image(); c1.src = "1c.gif";
+c2 = new Image(); c2.src = "2c.gif";
+c3 = new Image(); c3.src = "3c.gif";
+c4 = new Image(); c4.src = "4c.gif";
+c5 = new Image(); c5.src = "5c.gif";
+c6 = new Image(); c6.src = "6c.gif";
+c7 = new Image(); c7.src = "7c.gif";
+c8 = new Image(); c8.src = "8c.gif";
+c9 = new Image(); c9.src = "9c.gif";
+c0 = new Image(); c0.src = "0c.gif";
+Cc = new Image(); Cc.src = "Cc.gif";
+pos= new Image(); pos.src = "plussign.gif";
+tahti0 = new Image(); tahti0.src = "BallOff.gif";
+tahti1 = new Image(); tahti1.src = "BallOn.gif";
+La0 = new Image(); La0.src = "LaSignOff.gif"
+La1 = new Image(); La1.src = "LaSignOn.gif"
+Su0 = new Image(); Su0.src = "SuSignOff.gif"
+Su1 = new Image(); Su1.src = "SuSignOn.gif"
+Night0 = new Image(); Night0.src = "PuolikuuOff.gif";
+Night1= new Image(); Night1.src = "PuolikuuOn.gif";
+
+// NYKYHETKI
+now = new Date();
+
+// LAUANTAIRAJA
+LaBorder = new Date("Apr 21 2012 15:40:00");
+// SUNNUNTAIRAJAT
+SuBorder0 = new Date("Apr 22 2012 9:00:00");
+SuBorder1 = new Date("Apr 22 2012 19:20:00");
+
+//ENTER BELOW THE DATE YOU WISH TO COUNTDOWN TO
+later = new Date("Apr 21 2012 9:00:00");
+
+// EROTTAA PLUS JA MIINUS LASKENNAN
+if (now.getTime() >= later.getTime())
+{
+days = (now - later) / 1000 / 60 / 60 / 24;
+daysRound = Math.floor(days);
+hours = (now - later) / 1000 / 60 / 60 - (24 * daysRound);
+hoursRound = Math.floor(hours);
+minutes = (now - later) / 1000 /60 - (24 * 60 * daysRound) - (60 * hoursRound);
+minutesRound = Math.floor(minutes);
+seconds = (now - later) / 1000 - (24 * 60 * 60 * daysRound) - (60 * 60 * hoursRound) - (60 * minutesRound);
+secondsRound = Math.round(seconds);
+document.images.u.src = pos.src;
+}
+else
+{
+days = (later - now) / 1000 / 60 / 60 / 24;
+daysRound = Math.floor(days);
+hours = (later - now) / 1000 / 60 / 60 - (24 * daysRound);
+hoursRound = Math.floor(hours);
+minutes = (later - now) / 1000 /60 - (24 * 60 * daysRound) - (60 * hoursRound);
+minutesRound = Math.floor(minutes);
+seconds = (later - now) / 1000 - (24 * 60 * 60 * daysRound) - (60 * 60 * hoursRound) - (60 * minutesRound);
+secondsRound = Math.round(seconds);
+}
+
+// VILKKUVA AJAN TIKITYS
+if (secondsRound % 2 == 0)
+{document.images.t.src = tahti1.src;}
+else
+{document.images.t.src = tahti0.src;}
+
+// VILKKUVA LAUANTAIPELIPAIVA
+if ((now.getTime() >= later.getTime()) && (now.getTime() <= LaBorder.getTime()) && (secondsRound % 2 == 1))
+	{document.images.r.src = La1.src;}
+else
+	{document.images.r.src = La0.src;}
+
+// VILKKUVA LA:N JA SU:N VALINEN YOAIKA
+if ((now.getTime() >= LaBorder.getTime()) && (now.getTime() <= SuBorder0.getTime()) && (secondsRound % 2 == 1))
+	{document.images.v.src = Night1.src;}
+else
+	{document.images.v.src = Night0.src;}
+
+// VILKKUVA SUNNUNTAIPELIPAIVA
+if ((now.getTime() >= SuBorder0.getTime()) && (now.getTime() <= SuBorder1.getTime()) && (secondsRound % 2 == 1))
+	{document.images.s.src = Su1.src;}
+else
+	{document.images.s.src = Su0.src;}
+
+// TULOSTAA COUNTDOWN ARVON
+if (secondsRound <= 9) {
+document.images.g.src = c0.src;
+document.images.h.src = eval("c"+secondsRound+".src");
+}
+else {
+document.images.g.src = eval("c"+Math.floor(secondsRound/10)+".src");
+document.images.h.src = eval("c"+(secondsRound%10)+".src");
+}
+if (minutesRound <= 9) {
+document.images.d.src = c0.src;
+document.images.e.src = eval("c"+minutesRound+".src");
+}
+else {
+document.images.d.src = eval("c"+Math.floor(minutesRound/10)+".src");
+document.images.e.src = eval("c"+(minutesRound%10)+".src");
+}
+if (hoursRound <= 9) {
+document.images.y.src = c0.src;
+document.images.z.src = eval("c"+hoursRound+".src");
+}
+else {
+document.images.y.src = eval("c"+Math.floor(hoursRound/10)+".src");
+document.images.z.src = eval("c"+(hoursRound%10)+".src");
+}
+if (daysRound <= 9) {
+document.images.x.src = c0.src;
+document.images.a.src = c0.src;
+document.images.b.src = eval("c"+daysRound+".src");
+}
+if (daysRound <= 99) {
+document.images.x.src = c0.src;
+document.images.a.src = eval("c"+Math.floor((daysRound/10)%10)+".src");
+document.images.b.src = eval("c"+Math.floor(daysRound%10)+".src");
+}
+if (daysRound <= 999){
+document.images.x.src = eval("c"+Math.floor(daysRound/100)+".src");
+document.images.a.src = eval("c"+Math.floor((daysRound/10)%10)+".src");
+document.images.b.src = eval("c"+Math.floor(daysRound%10)+".src");
+}
+newtime = window.setTimeout("getTime();", 1000);
+}
+//  End -->
+</script>
+
+</head>
+
+<body link="#FFFF00" vlink="#FFFF00" alink="#FFFF00" onLoad="getTime()" bgcolor="#008000" background="CellBG.jpg">
+
+<SCRIPT LANGUAGE="JavaScript1.2">
+<!-- Original:  Altan (snow@altan.hr) -->
+<!-- Web Site:  http://www.altan.hr/snow -->
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var no = 25; // snow number
+var speed = 10; // smaller number moves the snow faster
+var snowflake = "smallb.gif";
+
+var ns4up = (document.layers) ? 1 : 0;  // browser sniffer
+var ie4up = (document.all) ? 1 : 0;
+var dx, xp, yp;    // coordinate and position variables
+var am, stx, sty;  // amplitude and step variables
+var i, doc_width = 800, doc_height = 600;
+if (ns4up) {
+doc_width = self.innerWidth;
+doc_height = self.innerHeight;
+} else if (ie4up) {
+doc_width = document.body.clientWidth;
+doc_height = document.body.clientHeight;
+}
+dx = new Array();
+xp = new Array();
+yp = new Array();
+am = new Array();
+stx = new Array();
+sty = new Array();
+for (i = 0; i < no; ++ i) {
+dx[i] = 0;                        // set coordinate variables
+xp[i] = Math.random()*(doc_width-50);  // set position variables
+yp[i] = Math.random()*doc_height;
+am[i] = Math.random()*20;         // set amplitude variables
+stx[i] = 0.02 + Math.random()/10; // set step variables
+sty[i] = 0.7 + Math.random();     // set step variables
+if (ns4up) {                      // set layers
+if (i == 0) {
+document.write("<layer name=\"dot"+ i +"\" left=\"15\" ");
+document.write("top=\"15\" visibility=\"show\"><img src=\"");
+document.write(snowflake + "\" border=\"0\"></layer>");
+} else {
+document.write("<layer name=\"dot"+ i +"\" left=\"15\" ");
+document.write("top=\"15\" visibility=\"show\"><img src=\"");
+document.write(snowflake + "\" border=\"0\"></layer>");
+   }
+} else if (ie4up) {
+if (i == 0) {
+document.write("<div id=\"dot"+ i +"\" style=\"POSITION: ");
+document.write("absolute; Z-INDEX: "+ i +"; VISIBILITY: ");
+document.write("visible; TOP: 15px; LEFT: 15px;\"><img src=\"");
+document.write(snowflake + "\" border=\"0\"></div>");
+} else {
+document.write("<div id=\"dot"+ i +"\" style=\"POSITION: ");
+document.write("absolute; Z-INDEX: "+ i +"; VISIBILITY: ");
+document.write("visible; TOP: 15px; LEFT: 15px;\"><img src=\"");
+document.write(snowflake + "\" border=\"0\"></div>");
+      }
+   }
+}
+function snowNS() {  // Netscape main animation function
+for (i = 0; i < no; ++ i) {  // iterate for every dot
+yp[i] += sty[i];
+if (yp[i] > doc_height-50) {
+xp[i] = Math.random()*(doc_width-am[i]-30);
+yp[i] = 0;
+stx[i] = 0.02 + Math.random()/10;
+sty[i] = 0.7 + Math.random();
+doc_width = self.innerWidth;
+doc_height = self.innerHeight;
+}
+dx[i] += stx[i];
+document.layers["dot"+i].top = yp[i];
+document.layers["dot"+i].left = xp[i] + am[i]*Math.sin(dx[i]);
+}
+setTimeout("snowNS()", speed);
+}
+function snowIE() {  // IE main animation function
+for (i = 0; i < no; ++ i) {  // iterate for every dot
+yp[i] += sty[i];
+if (yp[i] > doc_height-50) {
+xp[i] = Math.random()*(doc_width-am[i]-30);
+yp[i] = 0;
+stx[i] = 0.02 + Math.random()/10;
+sty[i] = 0.7 + Math.random();
+doc_width = document.body.clientWidth;
+doc_height = document.body.clientHeight;
+}
+dx[i] += stx[i];
+document.all["dot"+i].style.pixelTop = yp[i];
+document.all["dot"+i].style.pixelLeft = xp[i] + am[i]*Math.sin(dx[i]);
+}
+setTimeout("snowIE()", speed);
+}
+if (ns4up) {
+snowNS();
+} else if (ie4up) {
+snowIE();
+}
+// End -->
+</script>
+
+<div align="center">
+  <center>
+  <table border="1" cellspacing="1" width="884" bgcolor="#00FF00" height="489">
+    <tr>
+      <td bgcolor="#008000" align="center" width="362" colspan="3" height="56">
+        <div align="center">
+          <table border="0" cellpadding="2" width="200">
+            <tr>
+              <td>
+                <p align="center"><a href="Au2008Raportti.htm"><img border="0" src="AuRaportti2008.bmp" width="50" height="53" alt="Aunela-Turnaus Raportti 2008"></a></td>
+              <td nowrap>
+                <p align="center"><img border="0" src="AunelaOtsikko.bmp" width="202" height="45" alt="Aunela-Turnaus"></p>
+              </td>
+              <td>
+                <p align="center"><a href="Au2009Raportti.htm"><img border="0" src="Au2009Raportti.bmp" width="52" height="51" alt="Aunela-Turnaus Raportti 2009"></a></td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </center>
+      <td bgcolor="#008000" align="center" colspan="4" width="430" rowspan="4" height="1" valign="middle">
+        <p align="center"><strong><font color="#00FF00">Sivun yll�pit�j�n
+        ilmoitus:</font><font color="#FFFF00"> Olen luopunut Aunela-turnauksen
+		toimitsijan teht�vist� vuoden 2012 j�lkeen. Pid�n kuitenkin yll� itse
+		turnauksen tuloksia. Mutta vuosien 2013 ja 2014 tuloksia en ole saanut
+		viel� k�siini.&nbsp;Pyrin jatkossakin saamaan Aunela-turnauksen tuloksia
+		nettiin, niin kauan kun vain turnaustoimintaa jatketaa Aunela-tunauksen
+		osalta.</font></strong></p>
+    </td>
+  <center>
+      <td bgcolor="#008000" align="center" colspan="2" width="142" rowspan="2" height="1" valign="middle"><img src="/cgi/Count.cgi?dd=A" lowsrc="smallb.gif" alt="Vierailulaskuri">
+      </td>
+    </tr></center>
+  <center>
+    <tr>
+      <td bgcolor="#000000" align="center" width="362" colspan="3" rowspan="2" height="1">
+      <font color="#FFFF00">
+<table><tr><td bgcolor="black" valign="top">
+<img border="0" src="miinussign.gif" width="16" height="21" name=u>
+<img height=21 src="0c.gif" width=16 name=x alt="Vuorokausi x100">
+<img height=21 src="0c.gif" width=16 name=a alt="Vuorokausi x10">
+<img height=21 src="0c.gif" width=16 name=b alt="Vuorokausi x1">
+<img height=21 src="Cc.gif" width=9 name=czz>
+<img height=21 src="0c.gif" width=16 name=y alt="Tunnit x10">
+<img height=21 src="0c.gif" width=16 name=z alt="Tunnit x1">
+<img height=21 src="Cc.gif" width=9 name=cz>
+<img height=21 src="0c.gif" width=16 name=d alt="Minuutit x10">
+<img height=21 src="0c.gif" width=16 name=e alt="Minuutit x1">
+<img height=21 src="Cc.gif" width=9 name=f>
+<img height=21 src="0c.gif" width=16 name=g alt="Sekuunit x1">
+<img height=21 src="0c.gif" width=16 name=h alt="Sekunnit x1">
+<img border="0" src="BallOff.gif" width="16" height="21" name=t>
+<img border="0" src="LaSignOff.gif" width="16" height="21" name=r>
+ <img border="0" src="PuolikuuOff.gif" width="16" height="21" name=v>
+<img border="0" src="SuSignOff.gif" width="16" height="21" name=s>
+</td></tr></table>
+
+	</font>
+      </td>
+    </tr>
+    <tr>
+      <td bgcolor="#008000" align="center" colspan="2" width="142" rowspan="3" height="324">
+        <div align="center">
+          <table border="0" cellspacing="1" width="73" bordercolorlight="#008000" bordercolordark="#008000" bgcolor="#008000" bordercolor="#008000">
+            <tr>
+              <td align="center" bgcolor="#008000" width="200" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000" valign="middle" colspan="4">
+                <p align="center"><b><font size="4" color="#FFFF00">AUNELA
+                VUODET</font></b></p>
+              </td>
+  </center>
+  <center>
+            </tr>
+            <tr>
+              <td align="center" bgcolor="#008000" width="32" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="smallb.gif" width="18" height="18" alt="Nelospallo"></td>
+              <td align="center" bgcolor="#008000" width="54" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000">
+                <p align="center"><a href="Page_AUNL_2000.htm"><img border="0" src="YR00R01.GIF" alt="Vuoden 2000 tulokset" width="61" height="20"></a></p>
+            </td>
+              <td align="center" bgcolor="#008000" width="56" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000">
+                <p align="center"><a href="Page_AUNL_2012.htm"><img border="0" src="YR12R01.GIF" alt="Aunela-Turnaus 2012" width="61" height="20"></a>
+            </td>
+              <td align="center" bgcolor="#008000" width="58" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000">
+                <img border="0" src="nballyel.gif" width="18" height="18" alt="Turun Nappulaliiga">
+            </td>
+            </tr>
+            <tr>
+              <td align="center" bgcolor="#008000" width="32" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="nballyel.gif" width="18" height="18" alt="Turun Nappulaliiga"></td>
+              <td align="center" bgcolor="#008000" width="54" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><a href="Page_AUNL_2001.htm"><img border="0" src="YR01R01.GIF" alt="Vuoden 2001 tulokset" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="56" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><a href="Page_AUNL_2013.htm"><img border="0" src="YR13R01.GIF" alt="Aunela-Turnaus 2013" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="58" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="smallb.gif" width="18" height="18" alt="Nelospallo"></td>
+            </tr>
+            <tr>
+              <td align="center" bgcolor="#008000" width="32" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="smallb.gif" width="18" height="18" alt="Nelospallo"></td>
+              <td align="center" bgcolor="#008000" width="54" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><a href="Page_AUNL_2002.htm"><img border="0" src="yr02r01.gif" alt="Vuoden 2002 tulokset" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="56" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><a href="Page_AUNL_2014.htm"><img border="0" src="YR14R01.GIF" alt="Aunela-Turnaus 2014" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="58" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="nballyel.gif" width="18" height="18" alt="Turun Nappulaliiga"></td>
+            </tr>
+            <tr>
+              <td align="center" bgcolor="#008000" width="32" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="nballyel.gif" width="18" height="18" alt="Turun Nappulaliiga"></td>
+              <td align="center" bgcolor="#008000" width="54" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><a href="Page_AUNL_2003.htm"><img border="0" src="YR03R01.GIF" alt="Vuoden 2003 tulokset" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="56" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><a href="Page_AUNL_2015.htm"><img border="0" src="YR15R01.GIF" alt="Aunela-Turnaus 2015" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="58" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="smallb.gif" width="18" height="18" alt="Nelospallo"></td>
+            </tr>
+            <tr>
+              <td align="center" bgcolor="#008000" width="32" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="smallb.gif" width="18" height="18" alt="Nelospallo"></td>
+              <td align="center" bgcolor="#008000" width="54" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><a href="Page_AUNL_2004.htm"><img border="0" src="YR04R01.GIF" alt="Vuoden 2004 tulokset" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="56" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><a href="Page_AUNL_2016.htm"><img border="0" src="YR16R01.GIF" alt="Aunela-Turnaus 2016" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="58" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="nballyel.gif" width="18" height="18" alt="Turun Nappulaliiga"></td>
+            </tr>
+            <tr>
+              <td align="center" bgcolor="#008000" width="32" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="nballyel.gif" width="18" height="18" alt="Turun Nappulaliiga"></td>
+              <td align="center" bgcolor="#008000" width="54" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><a href="Page_AUNL_2005.htm"><img border="0" src="yr05r01.gif" alt="Vuoden 2005 tulokset" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="56" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><a href="Page_AUNL_2017.htm"><img border="0" src="YR17R01.GIF" alt="Aunela-Turnaus 2017" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="58" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="smallb.gif" width="18" height="18" alt="Nelospallo"></td>
+            </tr>
+            <tr>
+              <td align="center" bgcolor="#008000" width="32" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000">
+                <p align="center"><img border="0" src="smallb.gif" width="18" height="18" alt="Nelospallo"></p>
+              </td>
+              <td align="center" bgcolor="#008000" width="54" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><a href="Page_AUNL_2006.htm"><img border="0" src="YR06R01.GIF" alt="Vuoden 2006 tulokset" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="56" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><a href="Page_AUNL_2018.htm"><img border="0" src="YR18R01.GIF" alt="Aunela-Turnaus 2018" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="58" valign="middle" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="nballyel.gif" width="18" height="18" alt="Turun Nappulaliiga"></td>
+            </tr>
+            <tr>
+              <td align="center" bgcolor="#008000" width="32" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="nballyel.gif" width="18" height="18" alt="Turun Nappulaliiga"></td>
+              <td align="center" bgcolor="#008000" width="54" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><a href="Page_AUNL_2007.htm"><img border="0" src="yr07r01.gif" alt="Juhlavuoden 2007 tulokset" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="56" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><a href="Page_AUNL_2019.htm"><img border="0" src="YR19R01.GIF" alt="Aunela-Turnaus 2019" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="58" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="smallb.gif" width="18" height="18" alt="Nelospallo"></td>
+            </tr>
+            <tr>
+              <td align="center" bgcolor="#008000" width="32" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="smallb.gif" width="18" height="18" alt="Nelospallo"></td>
+              <td align="center" bgcolor="#008000" width="54" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><a href="Page_AUNL_2008.htm"><img border="0" src="yr08r01.gif" alt="Vuoden 2008 tulokset" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="56" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><a href="Page_AUNL_2020.htm"><img border="0" src="YR20R01.GIF" alt="Aunela-Turnaus 2020" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="58" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="nballyel.gif" width="18" height="18" alt="Turun Nappulaliiga"></td>
+            </tr>
+            <tr>
+              <td align="center" bgcolor="#008000" width="32" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="nballyel.gif" width="18" height="18" alt="Turun Nappulaliiga"></td>
+              <td align="center" bgcolor="#008000" width="54" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><a href="Page_AUNL_2009.htm"><img border="0" src="YR09R01.GIF" alt="Aunela-Turnaus 2009" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="56" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><a href="Page_AUNL_2021.htm"><img border="0" src="YR21R01.GIF" alt="Aunela-Turnaus 2021" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="58" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="smallb.gif" width="18" height="18" alt="Nelospallo"></td>
+            </tr>
+            <tr>
+              <td align="center" bgcolor="#008000" width="32" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="smallb.gif" width="18" height="18" alt="Nelospallo"></td>
+              <td align="center" bgcolor="#008000" width="54" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><a href="Page_AUNL_2010.htm"><img border="0" src="YR10R01.GIF" alt="Aunela-Turnaus 2010" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="56" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><a href="Page_AUNL_2022.htm"><img border="0" src="YR22R01.GIF" alt="Aunela-Turnaus 2022" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="58" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="nballyel.gif" width="18" height="18" alt="Turun Nappulaliiga"></td>
+            </tr>
+            <tr>
+              <td align="center" bgcolor="#008000" width="32" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="nballyel.gif" width="18" height="18" alt="Turun Nappulaliiga"></td>
+              <td align="center" bgcolor="#008000" width="54" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000">
+              <a href="Page_AUNL_2011.htm"><img border="0" src="yr11r01.gif" alt="Aunela-Turnaus 2011" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="56" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><a href="Page_AUNL_2023.htm"><img border="0" src="YR23R01.GIF" alt="Aunela-Turnaus 2023" width="61" height="20"></a></td>
+              <td align="center" bgcolor="#008000" width="58" bordercolorlight="#008000" bordercolordark="#008000" bordercolor="#008000"><img border="0" src="smallb.gif" width="18" height="18" alt="Nelospallo"></td>
+            </tr>
+          </table>
+        </div>
+      </center>
+      </td>
+    </tr>
+    <tr>
+      <td bgcolor="#008000" align="center" width="362" colspan="3" height="1"><font color="#FFFF00">
+<SCRIPT LANGUAGE="JavaScript1.2">
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var months=new Array(13);
+months[1]="Tammikuuta";
+months[2]="Helmikuuta";
+months[3]="Maaliskuuta";
+months[4]="Huhtikuuta";
+months[5]="Toukokuuta";
+months[6]="Kes�kuuta";
+months[7]="Hein�kuuta";
+months[8]="Elokuuta";
+months[9]="Syyskuuta";
+months[10]="Lokakuuta";
+months[11]="Marraskuuta";
+months[12]="Joulukuuta";
+var days=new Array(7);
+days[0]="Sunnuntai";
+days[1]="Maanantai";
+days[2]="Tiistai";
+days[3]="Keskiviikko";
+days[4]="Torstai";
+days[5]="Perjantai";
+days[6]="Lauantai";
+var time=new Date();
+var lmonth=months[time.getMonth() + 1];
+var lday=days[time.getDay()];
+var date=time.getDate();
+var year=time.getYear();
+
+if (year < 2000)    // Y2K Fix, Isaac Powell
+year = year + 1900; // http://onyx.idbsu.edu/~ipowell
+document.write("<center>"+lday+" " + date + ". ");
+document.write(lmonth + " " + year + " "+"</center>");
+// End -->
+      </SCRIPT>
+</font>
+      </td>
+    </tr>
+    <tr>
+      <td bgcolor="#008000" width="362" colspan="3" height="315" valign="top">
+        <div align="center">
+          <center>
+          <table border="0" cellspacing="0" width="96%" cellpadding="0" bgcolor="#008000">
+            <tr>
+              <td width="33%" valign="middle" align="center">
+                <p align="center"><a href="Au2010Raportti.htm"><img border="0" src="Au2010Raportti.gif" width="55" height="48" alt="Aunela-Turnaus Raportti 2010"></a></td>
+              <td width="33%">
+                <p align="center"><a href="Sivukarttavaiheessa.htm"><img border="0" src="Katto.bmp" alt="Sivukartasto" width="210" height="50"></a></p>
+              </td>
+            </center>
+              <td width="34%" valign="middle" align="center">
+                <p align="center"><a href="Au2011Raportti.htm">
+                <img border="0" src="Au2011Raportti.GIF" width="53" height="49"></a></td>
+            </tr>
+          <center>
+            <tr>
+              <td width="33%" valign="middle" align="center"><a href="HistoriaKeskus.htm"><img border="0" src="Vasen.bmp" alt="Ajan patinaa" width="50" height="228"></a></td>
+              <td width="33%">
+                <p align="center"><a href="Page_AUNL_2012.htm">
+                <img border="0" src="wait12.gif" width="201" height="229" alt="Tervetuloa Aunela-Turnaukseen 2012"></a></p>
+              </td>
+            </center>
+            <td width="34%" valign="middle" align="center">
+              <p align="right">&nbsp;<a href="AunelaPalaute.htm"><img border="0" src="Oikea.bmp" alt="Palauteseisoke" width="49" height="228"></a></td>
+          </tr>
+          <center>
+          <tr>
+            <td width="33%" valign="middle" align="center"><img border="0" src="smallb.gif" alt="Nelospallo" width="18" height="18"></td>
+            <td width="33%" valign="bottom" align="center">
+              <p align="center"><a href="FAQ.htm"><img border="0" src="Lattia.bmp" alt="Usein kysytyt kysymykset" width="215" height="50"></a></td>
+          </center>
+          <td width="34%" valign="middle" align="center">
+            <p align="right"><a href="http://www.fmi.fi/saa/paikalli.html?Keywords=&amp;station=02773&amp;param=T&amp;kunta=Turku&amp;Siirry.x=8&amp;Siirry.y=10"><img border="0" src="ilma.gif" alt="Ilmatieteen Laitoksen ennuste" width="50" height="50"></a></td>
+          </tr>
+          </table>
+        </div>
+      </td>
+      <td colspan="4" bgcolor="#008000" width="430" height="315" valign="top">
+        <p align="center"><map name="FPMap4">
+        <area href="aufld1.htm" shape="rect" coords="18, 190, 80, 244">
+        <area href="nufld2.htm" shape="rect" coords="6, 122, 62, 170">
+        <area href="thkfld4.htm" coords="39, 14, 103, 69" shape="rect">
+        <area href="pafld5.htm" shape="rect" coords="355, 3, 408, 44">
+        <area href="sufld6.htm" shape="rect" coords="355, 262, 408, 296">
+        <area href="http://www.turku.fi" shape="circle" coords="135, 223, 5">
+        <area href="http://www.suomi.fi" shape="rect" coords="340, 134, 415, 181">
+        <area href="http://www.suomi.fi" shape="rect" coords="210, 7, 300, 37">
+        <area href="http://www.palloliitto.fi" shape="rect" coords="290, 204, 370, 250">
+        <area href="http://fi.wikipedia.org/wiki/Jalkapallo" shape="circle" coords="307, 153, 9">
+        <area href="http://www.turku.fi" shape="rect" coords="10, 249, 73, 262">
+        <area href="http://kotisivu.dnainternet.net/kirsi6t/index.htm" shape="rect" coords="34, 271, 103, 289">
+        <area href="hmkfld3.htm" shape="rect" coords="3, 73, 56, 106"></map><img border="0" src="sijgrn.bmp" usemap="#FPMap4" alt="Aunelarieha" width="416" height="302"></p>
+        <p align="center"><a href="Huoneentaulu.htm"><img border="0" src="Huoneentaulu.gif" alt="Huoneen taulu" width="412" height="30"></a></p>
+      </td>
+    </tr>
+    <tr>
+      <td bgcolor="#008000" align="center" width="362" colspan="3" height="77"><b><font color="#FFFF00"><a href="KarttaPage.htm#Fields"><img border="0" src="fieldinf.gif" width="357" height="81" alt="Pelipaikat"></a></font></b></td>
+      <td bgcolor="#008000" align="center" width="123" height="77"><a href="http://www.fcinter.com"><img border="0" src="LogoFCinter.gif" width="105" height="81" alt="FC Inter Turku"></a></td>
+      <td bgcolor="#008000" align="center" width="110" height="77"><a href="http://www.tuto.fi/"><img border="0" src="tutoblnk.gif" alt="Turun Toverit" width="105" height="81"></a></td>
+      <td bgcolor="#008000" align="center" width="95" height="77">
+        <p align="center"><a href="http://www.tps.fi"><img border="0" src="tpslnk.gif" width="105" height="81" alt="Turun Palloseura"></a></td>
+      <td align="center" bgcolor="#008000" align="center" width="96" height="77" valign="middle">
+            <a href="http://www.palloliitto.fi/"><img border="0" src="spllnk.gif" alt="Suomen Palloliitto SPL" width="105" height="81"></a>
+      </td>
+      <td bgcolor="#008000" align="center" rowspan="2" width="55" valign="top" height="159"><a href="http://fifaworldcup.yahoo.com"><img border="0" src="mmfutispysti.jpg" width="94" height="169" alt="MM-Finaalipysti"></a></td>
+      <td bgcolor="#008000" align="center" width="87" height="77"><a href="myworld.htm"><img border="0" src="thismeg.gif" width="74" height="59" alt="Minun luukkuni"></a></td>
+    </tr>
+    <tr>
+      <td bgcolor="#008000" align="center" width="122" height="76"><a href="http://www.turunnappulaliiga.fi/"><img border="0" src="au1972gr.gif" alt="Turun Nappulaliiga" width="102" height="81"></a></td>
+
+      <td bgcolor="#008000" align="center" width="127" height="76" valign="middle"><a href="mailto:futislaine@luukku.com?subject=Kommentti Aunela-Turnauksesta&amp;Body=Arvoisat j�rjest�j�t.."><img border="0" src="EmaillingViesti.gif" alt="S�hk�postiviestin kirjoitus ja l�hetys" width="110" height="83"></a></td>
+
+      <td bgcolor="#008000" align="center" width="124" height="76"><a href="http://www.turku.fi"><img border="0" src="tku.gif" width="113" height="84" alt="Turun kaupunki"></a></td>
+      <td bgcolor="#008000" align="center" width="123" height="76"><a href="KarttaPage.htm"><img border="0" src="paikka.gif" width="105" height="83" alt="Opaskartat"></a></td>
+      <td bgcolor="#008000" align="center" width="110" height="76"><a href="RuleBook.htm"><img border="0" src="opastur.gif" width="105" height="81" alt="Turnaus informaatio"></a></td>
+      <td bgcolor="#008000" align="center" width="96" height="76">
+      <a href="http://www.uefa.com/uefaeuro2012/index.html">
+      <img border="0" src="EMFutis2012.GIF" alt="EM-futis 2012" width="105" height="81"></a></td>
+      <td bgcolor="#008000" align="center" width="95" height="76"><a href="http://www.palloliitto.fi/kaikki_pelaa/"><img border="0" src="fplay.gif" width="105" height="81" alt="Kaikki pelaa tietoa"></a></td>
+      <td bgcolor="#008000" align="center" width="87" height="76"><img border="0" src="hymyjpn.jpg" alt="Fair Play" width="73" height="70"></td>
+    </tr>
+  </table>
+</div>
+  <p align="center"><a href="javascript:history.go(-1)"><img border="0" src="takas.gif" width="74" height="30" alt="Takaisin"></a></p>
+<p align="center"><span style="background-color: #008000"><font color="#FFFFFF"><b><font size="2">Copyright 2000-2023</font></b> <font size="2"> <b>Kaikki oikeudet pid�tet��n</b>
+ <b>P�ivitetty 29.05. 2011 klo 17:07</b></font></font></span></p>
+
+</body>
+
+</html>

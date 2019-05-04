@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="HTML, CSS, calender, self-made, JavaScript">
+    <meta name="description" content="Build your own calendar">
+    <meta name="author" content="Arto Laine">
+    <meta http-equiv="refresh" content="60">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calendarstyles.css">
+    <title>HTML calendar</title>
+  </head>
+  <body>
+    <script src="pvminfo.js" charset="utf-8"></script>
+    <div>
+    <table border="1">
+      <caption>KUUKAUSI KALENTERI</caption>
+      <tr>
+        <th>
+          <script type="text/javascript">
+            "use strict";
+            giveMeThisYear();
+          </script>
+        </th>
+        <th colspan="7">
+          <script type="text/javascript">
+            "use strict";
+            giveTodaysDate();
+          </script>
+        </th>
+      </tr>
+      <tr>
+          <td id="ma1">Maanantai</td>
+          <td id="ti1">Tiistai</td><td id="ke1">Keskiviikko</td>
+          <td id="to1">Torstai</td><td id="pe1">Perjantai</td>
+          <td id="la1">Lauantai</td><td id="su1">Sunnuntai</td>
+          <td> Viikko ##</td>
+      </tr>
+      <tr>
+        <td id="ma2">Maanantai</td>
+        <td id="ti2">Tiistai</td><td id="ke2">Keskiviikko</td>
+        <td id="to2">Torstai</td><td id="pe2">Perjantai</td>
+        <td id="la2">Lauantai</td><td id="su2">Sunnuntai</td>
+        <td> Viikko ##</td>
+      </tr>
+      <tr>
+        <td id="ma3">Maanantai</td>
+        <td id="ti3">Tiistai</td>
+        <td id="ke3">Keskiviikko</td>
+        <td id="to3">Torstai</td><td id="pe3">Perjantai</td>
+        <td id="la3">Lauantai</td><td id="su3">Sunnuntai</td>
+        <td> Viikko ##</td>
+      </tr>
+      <tr>
+        <td id="ma4">Maanantai</td>
+        <td id="ti4">Tiistai</td><td id="ke4">Keskiviikko</td>
+        <td id="to4">Torstai</td><td id="pe4">Perjantai</td>
+        <td id="la4">Lauantai</td><td id="su4">Sunnuntai</td>
+        <td> Viikko ##</td>
+      </tr>
+      <tr>
+        <td id="ma5">Maanantai</td>
+        <td id="ti5">Tiistai</td><td id="ke5">Keskiviikko</td>
+        <td id="to5">Torstai</td><td id="pe5">Perjantai</td>
+        <td id="la5">Lauantai</td><td id="su5">Sunnuntai</td>
+        <td> Viikko ##</td>
+      </tr>
+      <tr>
+        <td id="ma6">Maanantai</td>
+        <td id="ti6">Tiistai</td><td id="ke6">Keskiviikko</td>
+        <td id="to6">Torstai</td><td id="pe6">Perjantai</td>
+        <td id="la6">Lauantai</td><td id="su6">Sunnuntai</td>
+        <td> Viikko ##</td>
+      </tr>
+      <tfoot>
+        <tr>
+          <td colspan=8>Nimipäivää viettävät tänään</td>
+        </tr>
+        <tr>
+          <td colspan=8>Paikkakunta Turku: Auringon nousuaika / Auringon laskuaika</td>
+        </tr>
+        <tr>
+          <td colspan=8>Kuun vaihe</td>
+        </tr>
+      </tfoot>
+    </table>
+    </div>
+  </body>
+</html>

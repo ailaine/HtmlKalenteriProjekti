@@ -1,0 +1,36 @@
+body {
+  background-color: pink;
+}
+h1 {
+  color: white;
+}
+p {
+  color: red;
+  border: 1px solid powderblue;
+  padding: 30px;
+  margin: 50px;
+}
+#ma1 {
+  color: green;
+}
+table {
+  width: 60%;
+  align-items: center;
+  /* color: blue; */
+  border: 2px solid green;
+  border-spacing: 5px;
+  /* border-collapse: collapse;  If the table has collapsed borders, border-spacing has no effect.*/
+  padding: 20px;
+  /* color: white;
+  background-color: red;
+  text-align: center; */
+}
+tr {
+  height=500px
+}
+td {
+  text-align: center;
+}
+caption {
+  text-align: center;
+}
