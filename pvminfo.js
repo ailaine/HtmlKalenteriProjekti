@@ -1,4 +1,4 @@
-/* testataan toimiiko viikonpaivan tulostus html sivulle */
+/*  testataan toimiiko viikonpaivan tulostus html sivulle */
 function getViikonPaiva(aika) {
   let days = ['Sunnuntai', 'Maanantai', 'Tiistai', 'Keskiviikko', 'Torstai', 'Perjantai', 'Lauantai'];
   // let aika= new Date();
